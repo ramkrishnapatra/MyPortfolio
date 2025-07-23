@@ -45,6 +45,7 @@ import Mckvie from './assets/education_logo/Mckvie.jpg';
 import PasswordGenerator from './assets/work_logo/PasswordGenerator.png';
 import Tolkify from './assets/work_logo/Tolkify.png';
 import EliteTube from './assets/work_logo/EliteTube.png';
+import cinemaGo from './assets/work_logo/cinemaGo.png'
 
 
 export const SkillsInfo = [
@@ -208,7 +209,7 @@ export const SkillsInfo = [
       image: Tolkify,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "NODEJS","Socket.io","Express","MongoDB"],
       github: "https://github.com/ramkrishnapatra/FullstackChatApp",
-      webapp: "https://fullstackchatapp-9l19.onrender.com/",
+      webapp: "https://fullstackchatapp-hef0.onrender.com/",
     },
     {
       id: 1,
@@ -222,6 +223,16 @@ export const SkillsInfo = [
     },
     {
       id: 2,
+      title: "CinemaGo",
+      description:
+        "Built a full-stack movie ticket booking app using React, Node.js, Express, and MongoDB. Features include seat selection, favorite movies, and an admin dashboard. Integrated Clerk for authentication, Stripe for payments, and NodeMailer for confirmation/reminder emails. Used Inngest to auto-release unpaid seats after 10 minutes. Designed a fully responsive UI with Tailwind CSS for seamless user experience.",
+      image:cinemaGo ,
+      tags: ["React JS", "Node.js", "MongoDb", "Stripe"],
+      github: "https://github.com/ramkrishnapatra/CinemaGo",
+      webapp: "https://cinemago-client.vercel.app/",
+    },
+    {
+      id: 3,
       title: "EliteTube",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
@@ -230,16 +241,7 @@ export const SkillsInfo = [
       github: "https://github.com/ramkrishnapatra/EliteTube_LandingPage",
       webapp: "https://elitetube.netlify.app/",
     },
-    // {
-    //   id: 3,
-    //   title: "Email Validator NPM Package",
-    //   description:
-    //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    //   image: npmLogo,
-    //   tags: ["React JS", "Node.js", "NPM", "Validation"],
-    //   github: "https://github.com/codingmastr/cmtk-email-validator",
-    //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    // },
+    
     // {
     //   id: 4,
     //   title: "Task Reminder Chrome Extension Tool",
